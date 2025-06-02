@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Login Window</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-image: url(book.jpeg);
+      }
+
+      .div1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgb(66, 68, 73);
+        padding: 30px 40px;
+        border-radius: 8px;
+        color: white;
+        width: 300px;
+      }
+
+      h2 {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      input[type="text"],
+      input[type="password"] {
+        width: 95%;
+        padding: 10px;
+        margin: 10px 0;
+        border: none;
+        border-radius: 4px;
+      }
+
+      input[type="checkbox"] {
+        margin-right: 10px;
+      }
+
+      label a {
+        color: #ccc;
+        text-decoration: underline;
+      }
+
+      button {
+        width: 100%;
+        padding: 10px;
+        background-color: #ec971f;
+        border: none;
+        border-radius: 4px;
+        color: black;
+        font-weight: bold;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div1">
+      <h2>LOGIN WINDOW</h2>
+      <form>
+        <input type="text" placeholder="Your Email Address" />
+        <input type="password" placeholder="Your Password" />
+        <label>
+          <input type="checkbox" />
+          Agree With <a href="www.terms.com">Terms & Condition</a>
+        </label>
+        <button type="submit">Login</button>
+      </form>
+    </div>
+  </body>
+</html>
